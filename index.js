@@ -1,7 +1,7 @@
 const redux = require('redux') // We cannot use the name redux in our code, we need to use the require function to import the redux module
-const createStore = redux.createStore
-const combineReducers = redux.combineReducers
-const reduxLogger = require('redux-logger')
+const createStore = redux.createStore //createStore is a function that takes in the reducer and initial state
+const combineReducers = redux.combineReducers //combineReducers is a function that takes in a list of reducers and returns single reducer that contains all of them 
+const reduxLogger = require('redux-logger') //redux-logger is a middleware that logs actions and state to the console
 
 const BUY_CAKE = 'BUY_CAKE'
 const BUY_ICECREAM = 'BUY_ICECREAM'
