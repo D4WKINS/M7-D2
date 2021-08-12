@@ -1,0 +1,24 @@
+{
+  "name": "m7-d2",
+  "version": "1.0.0",
+  "description": "Intro to Redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D4WKINS/M7-D2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D4WKINS/M7-D2/issues"
+  },
+  "homepage": "https://github.com/D4WKINS/M7-D2#readme",
+  "dependencies": {
+    "redux": "^4.1.1",
+    "redux-logger": "^3.0.6"
+  }
+}
